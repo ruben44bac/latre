@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>latre</title>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<style>
+@import url('../fonts/css.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    background-image: url('./back.jpg');
+    background: #000;
+    color: rgba(0, 0, 0, 0.096);
+}
+
+.header {
+    width: 100%;
+}
+.containers {
+    margin-top: -4%;
+
+}
+.img-res {
+    width: 100%;
+}
+.content {
+    margin-left: 6%;
+    height: 90vh;
+    float: left;
+    width: 90%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Neon*/
+
+  .column {
+    
+    padding: 20px 12px 12px 12px;
+    width: 23%;
+    float: left;
+  }
+  .item {
+    height: 250px;
+    color: #000;
+    text-align: left;
+    padding: 20px 8px 20px 8px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    background: #fff;
+    font-family: Monoton;
+  }
+  
+  .item:hover {
+    background: #FF1177;
+  }
+
+  .foot{
+    padding: 20px 0px 12px 0px;
+    color: #ffffff;
+    bottom: 0;
+  }
+  .foot p{
+    color: #000;
+    bottom: 0;
+  }
+  .bton-float {
+      position: fixed;
+      bottom: 0;
+      float: right;
+      z-index: 999;
+  }
+p a:hover {
+    background: #ffffff;
+  }
+  /*glow for webkit*/
+  
+
+
+    .P {
+    -webkit-animation: P1 1.5s ease-in-out infinite alternate;
+    -moz-animation: P1 1.5s ease-in-out infinite alternate;
+    animation: P1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes P1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px #00C853;
+        -moz-box-shadow: -1px 4px 35px 7px #00C853;
+        box-shadow: -1px 4px 35px 7px #00C853;
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px #00C853;
+        -moz-box-shadow: -1px 3px 64px 24px #00C853;
+        box-shadow: -1px 3px 64px 24px #00C853;    
+    }
+  }
+  
+  
+  @keyframes P1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px #00C853;
+        -moz-box-shadow: -1px 4px 35px 7px #00C853;
+        box-shadow: -1px 4px 35px 7px #00C853;
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px #00C853;
+        -moz-box-shadow: -1px 3px 50px 24px #00C853;
+        box-shadow: -1px 3px 50px 24px #00C853;    
+    }
+  }
+
+
+
+  
+  .CM {
+    -webkit-animation: CM1 1.5s ease-in-out infinite alternate;
+    -moz-animation: CM1 1.5s ease-in-out infinite alternate;
+    animation: CM1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes CM1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);    
+    }
+  }
+  
+  
+  @keyframes CM1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);    
+    }
+  }
+
+
+
+  .E {
+    -webkit-animation: E1 1.5s ease-in-out infinite alternate;
+    -moz-animation: E1 1.5s ease-in-out infinite alternate;
+    animation: E1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes E1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px #FF3D00;
+        -moz-box-shadow: -1px 4px 35px 7px #FF3D00;
+        box-shadow: -1px 4px 35px 7px #FF3D00;
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px #FF3D00;
+        -moz-box-shadow: -1px 3px 64px 24px #FF3D00;
+        box-shadow: -1px 3px 64px 24px #FF3D00;    
+    }
+  }
+  
+  
+  @keyframes E1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px #FF3D00;
+        -moz-box-shadow: -1px 4px 35px 7px #FF3D00;
+        box-shadow: -1px 4px 35px 7px #FF3D00;
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px #FF3D00;
+        -moz-box-shadow: -1px 3px 50px 24px #FF3D00;
+        box-shadow: -1px 3px 50px 24px #FF3D00;    
+    }
+  }
+
+
+
+  .T {
+    -webkit-animation: T1 1.5s ease-in-out infinite alternate;
+    -moz-animation: T1 1.5s ease-in-out infinite alternate;
+    animation: T1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes T1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);    
+    }
+  }
+  
+  
+  @keyframes T1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);    
+    }
+  }
+
+
+
+  .F {
+    -webkit-animation: F1 1.5s ease-in-out infinite alternate;
+    -moz-animation: F1 1.5s ease-in-out infinite alternate;
+    animation: F1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes F1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px #03A9F4;
+        -moz-box-shadow: -1px 4px 35px 7px #03A9F4;
+        box-shadow: -1px 4px 35px 7px #03A9F4;
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px #03A9F4;
+        -moz-box-shadow: -1px 3px 64px 24px #03A9F4;
+        box-shadow: -1px 3px 64px 24px #03A9F4;    
+    }
+  }
+  
+  
+  @keyframes F1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px #03A9F4;
+        -moz-box-shadow: -1px 4px 35px 7px #03A9F4;
+        box-shadow: -1px 4px 35px 7px #03A9F4;
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px #03A9F4;
+        -moz-box-shadow: -1px 3px 50px 24px #03A9F4;
+        box-shadow: -1px 3px 50px 24px #03A9F4;    
+    }
+  }
+
+  .PE {
+    -webkit-animation: PE1 1.5s ease-in-out infinite alternate;
+    -moz-animation: PE1 1.5s ease-in-out infinite alternate;
+    animation: PE1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes PE1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);    
+    }
+  }
+  
+  
+  @keyframes PE1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);    
+    }
+  }
+
+
+  .C {
+    -webkit-animation: C1 1.5s ease-in-out infinite alternate;
+    -moz-animation: C1 1.5s ease-in-out infinite alternate;
+    animation: C1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes C1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px #00C853;
+        -moz-box-shadow: -1px 4px 35px 7px #00C853;
+        box-shadow: -1px 4px 35px 7px #00C853;
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px #00C853;
+        -moz-box-shadow: -1px 3px 64px 24px #00C853;
+        box-shadow: -1px 3px 64px 24px #00C853;    
+    }
+  }
+  
+  
+  @keyframes C1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px #00C853;
+        -moz-box-shadow: -1px 4px 35px 7px #00C853;
+        box-shadow: -1px 4px 35px 7px #00C853;
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px #00C853;
+        -moz-box-shadow: -1px 3px 50px 24px #00C853;
+        box-shadow: -1px 3px 50px 24px #00C853;    
+    }
+  }
+
+
+  .PD {
+    -webkit-animation: PD1 1.5s ease-in-out infinite alternate;
+    -moz-animation: PD1 1.5s ease-in-out infinite alternate;
+    animation: PD1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes PD1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);    
+    }
+  }
+  
+  
+  @keyframes PD1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);    
+    }
+  }
+
+
+  .SG {
+    -webkit-animation: SG1 1.5s ease-in-out infinite alternate;
+    -moz-animation: SG1 1.5s ease-in-out infinite alternate;
+    animation: SG1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes SG1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);    
+    }
+  }
+  
+  
+  @keyframes SG1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);    
+    }
+  }
+
+
+  .CS {
+    -webkit-animation: CS1 1.5s ease-in-out infinite alternate;
+    -moz-animation: CS1 1.5s ease-in-out infinite alternate;
+    animation: CS1 1.5s ease-in-out infinite alternate;
+}
+
+  @-webkit-keyframes CS1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 64px 24px rgba(255,255,255,1);    
+    }
+  }
+  
+  
+  @keyframes CS1 {
+    from {
+        -webkit-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+        box-shadow: -1px 4px 35px 7px rgba(255,255,255,1);
+    }
+    to {
+        -webkit-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        -moz-box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);
+        box-shadow: -1px 3px 50px 24px rgba(255,255,255,1);    
+    }
+  }
+</style>
+    </head>
+
+    <body>
+
+            <div class="header">
+            <img src="./logo.png" class="img-res">
+        </div>
+        <div>
+          <form action="index.php" method="post" enctype="multipart/form-data">
+              Select image to upload:
+              <input type="file" name="fileToUpload" id="fileToUpload">
+              <input type="submit" value="Upload Image" name="submit">
+          </form>
+        </div>
+        <div class="row">
+            <div class="col s12 containers"  align="center">
+                <div class="content" align="center">
+                <br />
+<b>Notice</b>:  Uninitialized string offset: 5 in <b>C:\Users\ruben.baeza\Documents\latre\www\PHPExcel\Classes\PHPExcel\Reader\Excel5.php</b> on line <b>7577</b><br />
+<br />
+<b>Notice</b>:  Uninitialized string offset: 4 in <b>C:\Users\ruben.baeza\Documents\latre\www\PHPExcel\Classes\PHPExcel\Reader\Excel5.php</b> on line <b>7584</b><br />
+                    <div class="column">
+                    <span class="badge orange" style="color: #FFFFFF;">OK</span>
+                        <div class="item C" style="font-family: 'Roboto', sans-serif; background: #00C853">
+                            <font size="+2">Máquina: GUIDE (2224)
+                            </font>
+                            <br>
+                            <b>NO INICIA CICLO</b>
+                            <br>
+                            Línea: 19                            <br>
+                            Fecha inicio: 01-01-1970 12:47:37                            <br>
+                            Fecha fin: 01-01-1970 12:47:33
+                            <div class="foot">
+                                <font color="#000">Electromecánico: </font><br>
+                                MORQUECHO                            </div>
+                        </div>  
+                    </div>   
+
+                                        <div class="column">
+                    <span class="badge orange" style="color: #FFFFFF;">OK</span>
+                        <div class="item C" style="font-family: 'Roboto', sans-serif; background: #00C853">
+                            <font size="+2">Máquina: R&B (2221)
+                            </font>
+                            <br>
+                            <b>RUIDO EXCESIVO EN BOMBA HIDRAULICA</b>
+                            <br>
+                            Línea: 19                            <br>
+                            Fecha inicio: 01-01-1970 12:47:37                            <br>
+                            Fecha fin: 01-01-1970 12:21:50
+                            <div class="foot">
+                                <font color="#000">Electromecánico: </font><br>
+                                ACASTAÑEDA/GQUEZADA                            </div>
+                        </div>  
+                    </div>   
+
+                                        <div class="column">
+                    <span class="badge orange" style="color: #FFFFFF;">OK</span>
+                        <div class="item E" style="font-family: 'Roboto', sans-serif; background: #FF3D00">
+                            <font size="+2">Máquina: MORISEIKI (2008)
+                            </font>
+                            <br>
+                            <b>COLOCAR MOTOR DE GUSANO</b>
+                            <br>
+                            Línea: 37                            <br>
+                            Fecha inicio: 01-01-1970 12:47:37                            <br>
+                            Fecha fin: 01-01-1970 12:21:50
+                            <div class="foot">
+                                <font color="#000">Electromecánico: </font><br>
+                                ACASTAÑEDA/GQUEZADA                            </div>
+                        </div>  
+                    </div>   
+
+                                        <div class="column">
+                    <span class="badge orange" style="color: #FFFFFF;">OK</span>
+                        <div class="item F" style="font-family: 'Roboto', sans-serif; background: #03A9F4">
+                            <font size="+2">Máquina: KASPER (685)
+                            </font>
+                            <br>
+                            <b>CONECTAR BOMBA</b>
+                            <br>
+                            Línea: 21                            <br>
+                            Fecha inicio: 01-01-1970 12:47:37                            <br>
+                            Fecha fin: 01-01-1970 12:21:50
+                            <div class="foot">
+                                <font color="#000">Electromecánico: </font><br>
+                                TOLEDO/GALLO                            </div>
+                        </div>  
+                    </div>   
+
+                    <br>
+                            <div class="clearfix"></div>
+                            <br>                    <div class="column">
+                    <span class="badge orange" style="color: #FFFFFF;">OK</span>
+                        <div class="item E" style="font-family: 'Roboto', sans-serif; background: #FF3D00">
+                            <font size="+2">Máquina: OKUMA (1)
+                            </font>
+                            <br>
+                            <b>CONFIRMA HORIZONTL Y VERTICAL</b>
+                            <br>
+                            Línea: 1                            <br>
+                            Fecha inicio: 01-01-1970 12:47:37                            <br>
+                            Fecha fin: 01-01-1970 12:21:50
+                            <div class="foot">
+                                <font color="#000">Electromecánico: </font><br>
+                                MORQUECHO/CARLOS T                            </div>
+                        </div>  
+                    </div>   
+
+                                        <div class="column">
+                    <span class="badge orange" style="color: #FFFFFF;">OK</span>
+                        <div class="item C" style="font-family: 'Roboto', sans-serif; background: #00C853">
+                            <font size="+2">Máquina: CHIRON (583)
+                            </font>
+                            <br>
+                            <b>NO SE VA A HOME</b>
+                            <br>
+                            Línea: 22                            <br>
+                            Fecha inicio: 01-01-1970 12:47:37                            <br>
+                            Fecha fin: 01-01-1970 12:21:50
+                            <div class="foot">
+                                <font color="#000">Electromecánico: </font><br>
+                                GABRIEL                            </div>
+                        </div>  
+                    </div>   
+
+                                        <div class="column">
+                    <span class="badge orange" style="color: #FFFFFF;">OK</span>
+                        <div class="item C" style="font-family: 'Roboto', sans-serif; background: #00C853">
+                            <font size="+2">Máquina: EXCELLO (935)
+                            </font>
+                            <br>
+                            <b>MAQUINA ALARMADA</b>
+                            <br>
+                            Línea: 43                            <br>
+                            Fecha inicio: 01-01-1970 12:47:37                            <br>
+                            Fecha fin: 01-01-1970 12:21:50
+                            <div class="foot">
+                                <font color="#000">Electromecánico: </font><br>
+                                MORQUECHO/CARLOS T                            </div>
+                        </div>  
+                    </div>   
+
+                                        <div class="column">
+                    <span class="badge orange" style="color: #FFFFFF;">OK</span>
+                        <div class="item E" style="font-family: 'Roboto', sans-serif; background: #FF3D00">
+                            <font size="+2">Máquina: GUIDE (2224)
+                            </font>
+                            <br>
+                            <b>NO ENCIENDE</b>
+                            <br>
+                            Línea: 19                            <br>
+                            Fecha inicio: 01-01-1970 12:47:37                            <br>
+                            Fecha fin: 01-01-1970 12:21:50
+                            <div class="foot">
+                                <font color="#000">Electromecánico: </font><br>
+                                                            </div>
+                        </div>  
+                    </div>   
+
+                    <br>
+                            <div class="clearfix"></div>
+                            <br>                    <div class="column">
+                    <span class="badge orange" style="color: #FFFFFF;">OK</span>
+                        <div class="item E" style="font-family: 'Roboto', sans-serif; background: #FF3D00">
+                            <font size="+2">Máquina: GUIDE (2224)
+                            </font>
+                            <br>
+                            <b>NO ENCIENDE</b>
+                            <br>
+                            Línea: 19                            <br>
+                            Fecha inicio: 01-01-1970 12:47:37                            <br>
+                            Fecha fin: 01-01-1970 12:21:50
+                            <div class="foot">
+                                <font color="#000">Electromecánico: </font><br>
+                                                            </div>
+                        </div>  
+                    </div>   
+
+                    
+
+                    
+                </div>
+            </div>
+
+            <a class="btn-floating btn-large waves-effect waves-light red bton-float"><i class="material-icons">add</i></a>
+
+        </div>
+      <!--JavaScript at end of body for optimized loading-->
+
+    </body>
+  </html>

@@ -1,0 +1,10 @@
+P - Preventivo
+CM - Cambio de modelo
+E - Emergencia
+T- Trabajando máquina sin causar paro
+F- Fuga de aire o aceite
+PE - Programa de eventos
+C - Correctivo
+PD - Predictivo
+SG - Servicios generales
+CS - Cambio de soluble

@@ -1,0 +1,606 @@
+- 18:26:51.016 INFO: --------------------------------------------------------
+- 18:26:51.016 INFO: Started application
+- 18:26:51.016 INFO: Logging to: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 18:26:51.016 INFO: Log level = DEBUG4
+- 18:26:51.016 INFO: Starting Mongoose 3.9c web server
+- 18:26:51.016 INFO: WWW directory: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 18:26:51.016 INFO: Index files: index.html,index.php
+- 18:26:51.016 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 18:26:51.016 INFO: CGI pattern: **.php$
+- 18:26:51.016 INFO: Hide files patterns: 
+- 18:26:51.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:26:51.016 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:26:51.016 INFO: Web server url: http://127.0.0.1:51744/
+- 18:26:51.016 INFO: remote_debugging_port = 61829
+- 18:26:51.016 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=61829
+- 18:26:52.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=80AB5D001396D12BC9BE881CF08D0F79 --mojo-platform-channel-handle=1632 /prefetch:2
+- 18:26:52.719 DEBUG: App::OnContextInitialized()
+- 18:26:52.719 DEBUG: Window max width/height = 1840/992
+- 18:26:52.719 DEBUG: GetBrowserWindow(): not found, hwnd = 984834
+- 18:26:52.719 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:26:52.719 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:26:52.719 DEBUG: StoreBrowserWindow(): hwnd = 984834
+- 18:26:52.735 DEBUG: ClientHandler::OnAfterCreated()
+- 18:26:52.735 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:26:52.750 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:26:52.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=AA479661987FE1F3F65B89338ACA6CF1 --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AA479661987FE1F3F65B89338ACA6CF1 --renderer-client-id=3 --mojo-platform-channel-handle=2036 /prefetch:1
+- 18:26:52.032 DEBUG: OnBrowserCreated()
+[0312/182652.717:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:26:53.328 INFO: GET 200 /style.css
+- 18:26:53.328 INFO: GET 200 /
+- 18:26:53.578 DEBUG: OnContextCreated()
+- 18:26:53.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51744/
+- 18:27:02.782 DEBUG: OnBeforeClose() hwnd=788398
+- 18:27:02.782 DEBUG: RemoveBrowserWindow(): hwnd = 788398
+- 18:27:02.782 DEBUG: GetBrowserWindow(): not found, hwnd = 788398
+- 18:27:02.782 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:27:15.016 INFO: --------------------------------------------------------
+- 18:27:15.016 INFO: Started application
+- 18:27:15.016 INFO: Logging to: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 18:27:15.016 INFO: Log level = DEBUG4
+- 18:27:15.016 INFO: Starting Mongoose 3.9c web server
+- 18:27:15.016 INFO: WWW directory: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 18:27:15.016 INFO: Index files: index.html,index.php
+- 18:27:15.016 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 18:27:15.016 INFO: CGI pattern: **.php$
+- 18:27:15.016 INFO: Hide files patterns: 
+- 18:27:15.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:27:15.016 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:27:15.016 INFO: Web server url: http://127.0.0.1:51762/
+- 18:27:15.016 INFO: remote_debugging_port = 51162
+- 18:27:15.016 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=51162
+- 18:27:15.047 DEBUG: App::OnContextInitialized()
+- 18:27:15.047 DEBUG: Window max width/height = 1840/992
+- 18:27:15.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1443580
+- 18:27:15.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:27:15.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:27:15.047 DEBUG: StoreBrowserWindow(): hwnd = 1443580
+- 18:27:15.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=FEE55BC6D3F2D14106FC621DCF2C84E7 --mojo-platform-channel-handle=1592 /prefetch:2
+- 18:27:15.079 DEBUG: ClientHandler::OnAfterCreated()
+- 18:27:15.079 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:27:15.079 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:27:15.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=98526BE141CF605B71D6E6C4F0D54877 --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=98526BE141CF605B71D6E6C4F0D54877 --renderer-client-id=3 --mojo-platform-channel-handle=1996 /prefetch:1
+[0312/182715.483:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:27:15.016 DEBUG: OnBrowserCreated()
+- 18:27:16.188 INFO: GET 200 /style.css
+- 18:27:16.188 INFO: GET 200 /
+- 18:27:16.094 DEBUG: OnContextCreated()
+- 18:27:16.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51762/
+- 18:27:20.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51762/
+- 18:27:20.297 DEBUG: OnContextCreated()
+- 18:27:20.391 INFO: GET 200 /phpinfo.php
+- 18:27:20.391 INFO: GET 304 /style.css
+- 18:27:20.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51762/phpinfo.php
+- 18:27:23.547 DEBUG: WM_DESTROY
+- 18:27:23.547 DEBUG: RemoveBrowserWindow(): hwnd = 1443580
+- 18:27:23.547 INFO: Stopping Mongoose web server
+- 18:27:23.547 DEBUG: Mongoose webserver stopped immediately
+- 18:27:23.547 DEBUG: OnBeforeClose() hwnd=919296
+- 18:27:23.547 DEBUG: RemoveBrowserWindow(): hwnd = 919296
+- 18:27:23.547 DEBUG: GetBrowserWindow(): not found, hwnd = 919296
+- 18:27:23.547 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:27:23.547 DEBUG: Calling CefQuitMessageLoop()
+- 18:27:23.563 INFO: Ended application
+- 18:27:23.563 INFO: --------------------------------------------------------
+- 18:31:16.015 INFO: --------------------------------------------------------
+- 18:31:16.015 INFO: Started application
+- 18:31:16.015 INFO: Logging to: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 18:31:16.015 INFO: Log level = DEBUG4
+- 18:31:16.015 INFO: Starting Mongoose 3.9c web server
+- 18:31:16.015 INFO: WWW directory: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 18:31:16.015 INFO: Index files: index.html,index.php
+- 18:31:16.015 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 18:31:16.015 INFO: CGI pattern: **.php$
+- 18:31:16.015 INFO: Hide files patterns: 
+- 18:31:16.015 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:31:16.015 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:31:16.015 INFO: Web server url: http://127.0.0.1:51980/
+- 18:31:16.015 INFO: remote_debugging_port = 54173
+- 18:31:16.015 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=54173
+- 18:31:16.046 DEBUG: App::OnContextInitialized()
+- 18:31:16.046 DEBUG: Window max width/height = 1840/992
+- 18:31:16.046 DEBUG: GetBrowserWindow(): not found, hwnd = 1771000
+- 18:31:16.046 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:31:16.046 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:31:16.046 DEBUG: StoreBrowserWindow(): hwnd = 1771000
+- 18:31:16.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=B6A311E110C78029EC847318FBF35588 --mojo-platform-channel-handle=1612 /prefetch:2
+- 18:31:16.062 DEBUG: ClientHandler::OnAfterCreated()
+- 18:31:16.062 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:31:16.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:31:16.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A105B69153A3414AB1078F46FB444A2D --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A105B69153A3414AB1078F46FB444A2D --renderer-client-id=3 --mojo-platform-channel-handle=2020 /prefetch:1
+[0312/183116.931:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:31:16.031 DEBUG: OnBrowserCreated()
+- 18:31:18.171 INFO: GET 200 /style.css
+- 18:31:18.171 INFO: GET 200 /
+- 18:31:18.093 DEBUG: OnContextCreated()
+- 18:31:18.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51980/
+- 18:31:29.171 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51980/
+- 18:31:29.125 DEBUG: OnContextCreated()
+- 18:31:29.203 INFO: GET 200 /blenc_encode.php
+- 18:31:29.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51980/blenc_encode.php
+- 18:31:30.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51980/blenc_encode.php
+- 18:31:30.312 DEBUG: OnContextCreated()
+- 18:31:30.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51980/
+- 18:31:58.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51980/
+- 18:31:58.750 INFO: GET 404 /blenc_myscript.php
+- 18:31:58.672 DEBUG: OnContextCreated()
+- 18:31:58.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51980/blenc_myscript.php
+- 18:32:06.281 DEBUG: WM_DESTROY
+- 18:32:06.281 DEBUG: RemoveBrowserWindow(): hwnd = 1771000
+- 18:32:06.281 INFO: Stopping Mongoose web server
+- 18:32:06.281 DEBUG: Mongoose webserver stopped immediately
+- 18:32:06.281 DEBUG: OnBeforeClose() hwnd=1181614
+- 18:32:06.281 DEBUG: RemoveBrowserWindow(): hwnd = 1181614
+- 18:32:06.281 DEBUG: GetBrowserWindow(): not found, hwnd = 1181614
+- 18:32:06.281 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:32:06.281 DEBUG: Calling CefQuitMessageLoop()
+- 18:32:06.203 DEBUG: OnBrowserDestroyed()
+- 18:32:06.296 INFO: Ended application
+- 18:32:06.296 INFO: --------------------------------------------------------
+- 18:32:18.015 INFO: --------------------------------------------------------
+- 18:32:18.015 INFO: Started application
+- 18:32:18.015 INFO: Logging to: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 18:32:18.015 INFO: Log level = DEBUG4
+- 18:32:18.015 INFO: Starting Mongoose 3.9c web server
+- 18:32:18.015 INFO: WWW directory: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 18:32:18.015 INFO: Index files: index.html,index.php
+- 18:32:18.015 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 18:32:18.015 INFO: CGI pattern: **.php$
+- 18:32:18.015 INFO: Hide files patterns: 
+- 18:32:18.015 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:32:18.015 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:32:18.015 INFO: Web server url: http://127.0.0.1:51985/
+- 18:32:18.015 INFO: remote_debugging_port = 61723
+- 18:32:18.015 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=61723
+- 18:32:18.047 DEBUG: App::OnContextInitialized()
+- 18:32:18.047 DEBUG: Window max width/height = 1840/992
+- 18:32:18.047 DEBUG: GetBrowserWindow(): not found, hwnd = 328392
+- 18:32:18.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:32:18.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:32:18.047 DEBUG: StoreBrowserWindow(): hwnd = 328392
+- 18:32:18.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=C0B0D5AFCB5125582C316D2D05E49AA7 --mojo-platform-channel-handle=1612 /prefetch:2
+- 18:32:18.062 DEBUG: ClientHandler::OnAfterCreated()
+- 18:32:18.062 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:32:18.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:32:18.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=586DF35CBF9128994C88FE7BCA110F6D --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=586DF35CBF9128994C88FE7BCA110F6D --renderer-client-id=3 --mojo-platform-channel-handle=2004 /prefetch:1
+[0312/183218.587:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:32:18.031 DEBUG: OnBrowserCreated()
+- 18:32:19.172 INFO: GET 200 /css/materialize.min.css
+- 18:32:19.172 INFO: GET 200 /fonts/css.css
+- 18:32:20.812 INFO: GET 200 /logo.png
+- 18:32:20.828 INFO: GET 200 /
+- 18:32:20.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51985/
+- 18:32:57.265 DEBUG: WM_DESTROY
+- 18:32:57.265 DEBUG: RemoveBrowserWindow(): hwnd = 328392
+- 18:32:57.265 INFO: Stopping Mongoose web server
+- 18:32:57.265 DEBUG: Mongoose webserver stopped immediately
+- 18:32:57.281 DEBUG: OnBeforeClose() hwnd=459522
+- 18:32:57.281 DEBUG: RemoveBrowserWindow(): hwnd = 459522
+- 18:32:57.281 DEBUG: GetBrowserWindow(): not found, hwnd = 459522
+- 18:32:57.281 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:32:57.281 DEBUG: Calling CefQuitMessageLoop()
+- 18:32:57.297 INFO: Ended application
+- 18:32:57.297 INFO: --------------------------------------------------------
+- 18:33:12.031 INFO: --------------------------------------------------------
+- 18:33:12.031 INFO: Started application
+- 18:33:12.031 INFO: Logging to: C:\Users\ruben.baeza\Documents\latre\debug.log
+- 18:33:12.031 INFO: Log level = DEBUG4
+- 18:33:12.031 INFO: Starting Mongoose 3.9c web server
+- 18:33:12.031 INFO: WWW directory: C:\Users\ruben.baeza\Documents\latre\www
+- 18:33:12.031 INFO: Index files: index.html,index.php
+- 18:33:12.031 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\latre\php\php-cgi.exe
+- 18:33:12.031 INFO: CGI pattern: **.php$
+- 18:33:12.031 INFO: Hide files patterns: 
+- 18:33:12.031 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:33:12.031 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:33:12.031 INFO: Web server url: http://127.0.0.1:51995/
+- 18:33:12.031 INFO: remote_debugging_port = 61540
+- 18:33:12.031 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --remote-debugging-port=61540
+- 18:33:12.062 DEBUG: App::OnContextInitialized()
+- 18:33:12.062 DEBUG: Window max width/height = 1840/992
+- 18:33:12.062 DEBUG: GetBrowserWindow(): not found, hwnd = 591236
+- 18:33:12.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:33:12.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:33:12.062 DEBUG: StoreBrowserWindow(): hwnd = 591236
+- 18:33:12.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --service-request-channel-token=C08CEA7A75D2CE156B4F45F91FDFBE27 --mojo-platform-channel-handle=1628 /prefetch:2
+- 18:33:12.078 DEBUG: ClientHandler::OnAfterCreated()
+- 18:33:12.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:33:12.093 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:33:12.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=renderer --no-sandbox --primordial-pipe-token=AB3655B2EE03C4D2D76ADFBC702E73BF --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AB3655B2EE03C4D2D76ADFBC702E73BF --renderer-client-id=3 --mojo-platform-channel-handle=2040 /prefetch:1
+[0312/183312.571:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:33:12.032 DEBUG: OnBrowserCreated()
+- 18:33:13.218 INFO: GET 200 /fonts/css.css
+- 18:33:13.218 INFO: GET 200 /css/materialize.min.css
+- 18:33:14.859 INFO: GET 200 /logo.png
+- 18:33:14.875 INFO: GET 200 /
+- 18:33:14.921 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51995/
+- 18:33:19.937 DEBUG: WM_DESTROY
+- 18:33:19.937 DEBUG: RemoveBrowserWindow(): hwnd = 591236
+- 18:33:19.937 INFO: Stopping Mongoose web server
+- 18:33:19.937 DEBUG: Mongoose webserver stopped immediately
+- 18:33:19.937 DEBUG: OnBeforeClose() hwnd=1574830
+- 18:33:19.937 DEBUG: RemoveBrowserWindow(): hwnd = 1574830
+- 18:33:19.937 DEBUG: GetBrowserWindow(): not found, hwnd = 1574830
+- 18:33:19.937 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:33:19.937 DEBUG: Calling CefQuitMessageLoop()
+- 18:33:19.953 INFO: Ended application
+- 18:33:19.953 INFO: --------------------------------------------------------
+- 18:46:03.015 INFO: --------------------------------------------------------
+- 18:46:03.015 INFO: Started application
+- 18:46:03.015 INFO: Logging to: C:\Users\ruben.baeza\Documents\latre\debug.log
+- 18:46:03.015 INFO: Log level = DEBUG4
+- 18:46:03.015 INFO: Starting Mongoose 3.9c web server
+- 18:46:03.015 INFO: WWW directory: C:\Users\ruben.baeza\Documents\latre\www
+- 18:46:03.015 INFO: Index files: index.html,index.php
+- 18:46:03.015 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\latre\php\php-cgi.exe
+- 18:46:03.015 INFO: CGI pattern: **.php$
+- 18:46:03.015 INFO: Hide files patterns: 
+- 18:46:03.031 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:46:03.031 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:46:03.031 INFO: Web server url: http://127.0.0.1:52051/
+- 18:46:03.031 INFO: remote_debugging_port = 50082
+- 18:46:03.031 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --remote-debugging-port=50082
+- 18:46:03.062 DEBUG: App::OnContextInitialized()
+- 18:46:03.062 DEBUG: Window max width/height = 1840/992
+- 18:46:03.062 DEBUG: GetBrowserWindow(): not found, hwnd = 3999436
+- 18:46:03.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:46:03.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:46:03.062 DEBUG: StoreBrowserWindow(): hwnd = 3999436
+- 18:46:03.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --service-request-channel-token=A22C5E4C852309727BF18F2A11B4E4BC --mojo-platform-channel-handle=1584 /prefetch:2
+- 18:46:03.078 DEBUG: ClientHandler::OnAfterCreated()
+- 18:46:03.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:46:03.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:46:03.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=renderer --no-sandbox --primordial-pipe-token=6B4CA3637DEF6F60328A4356543E2FF0 --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6B4CA3637DEF6F60328A4356543E2FF0 --renderer-client-id=3 --mojo-platform-channel-handle=2004 /prefetch:1
+[0312/184603.567:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:46:03.032 DEBUG: OnBrowserCreated()
+- 18:46:04.171 INFO: GET 200 /fonts/css.css
+- 18:46:04.171 INFO: GET 200 /css/materialize.min.css
+- 18:46:05.796 INFO: GET 200 /logo.png
+- 18:46:05.812 INFO: GET 200 /
+- 18:46:05.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52051/
+- 18:46:23.609 DEBUG: WM_DESTROY
+- 18:46:23.609 DEBUG: RemoveBrowserWindow(): hwnd = 3999436
+- 18:46:23.609 INFO: Stopping Mongoose web server
+- 18:46:23.609 DEBUG: Mongoose webserver stopped immediately
+- 18:46:23.609 DEBUG: OnBeforeClose() hwnd=2492124
+- 18:46:23.609 DEBUG: RemoveBrowserWindow(): hwnd = 2492124
+- 18:46:23.625 DEBUG: GetBrowserWindow(): not found, hwnd = 2492124
+- 18:46:23.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:46:23.625 DEBUG: Calling CefQuitMessageLoop()
+- 18:46:23.640 INFO: Ended application
+- 18:46:23.640 INFO: --------------------------------------------------------
+- 09:39:39.016 INFO: --------------------------------------------------------
+- 09:39:39.016 INFO: Started application
+- 09:39:39.016 INFO: Logging to: C:\Users\ruben.baeza\Documents\latre\debug.log
+- 09:39:39.016 INFO: Log level = DEBUG4
+- 09:39:39.016 INFO: Starting Mongoose 3.9c web server
+- 09:39:39.016 INFO: WWW directory: C:\Users\ruben.baeza\Documents\latre\www
+- 09:39:39.016 INFO: Index files: index.html,index.php
+- 09:39:39.016 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\latre\php\php-cgi.exe
+- 09:39:39.016 INFO: CGI pattern: **.php$
+- 09:39:39.016 INFO: Hide files patterns: 
+- 09:39:39.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 09:39:39.016 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:39:39.016 INFO: Web server url: http://127.0.0.1:62970/
+- 09:39:39.016 INFO: remote_debugging_port = 64527
+- 09:39:39.016 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --remote-debugging-port=64527
+- 09:39:39.047 DEBUG: App::OnContextInitialized()
+- 09:39:39.047 DEBUG: Window max width/height = 1840/992
+- 09:39:39.047 DEBUG: GetBrowserWindow(): not found, hwnd = 526614
+- 09:39:39.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:39:39.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:39:39.047 DEBUG: StoreBrowserWindow(): hwnd = 526614
+- 09:39:39.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --service-request-channel-token=201F6C27C8ED7A15F98824D7F233C2DA --mojo-platform-channel-handle=1592 /prefetch:2
+- 09:39:39.078 DEBUG: ClientHandler::OnAfterCreated()
+- 09:39:39.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:39:39.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:39:39.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=renderer --no-sandbox --primordial-pipe-token=76720AB189F17BDBBDFC8CA25D0817D6 --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=76720AB189F17BDBBDFC8CA25D0817D6 --renderer-client-id=3 --mojo-platform-channel-handle=2016 /prefetch:1
+[0313/093939.187:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:39:39.015 DEBUG: OnBrowserCreated()
+- 09:39:40.188 INFO: GET 200 /fonts/css.css
+- 09:39:40.188 INFO: GET 200 /css/materialize.min.css
+- 09:39:40.813 INFO: GET 200 /logo.png
+- 09:39:40.828 INFO: GET 200 /
+- 09:39:40.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62970/
+- 09:39:54.172 DEBUG: WM_DESTROY
+- 09:39:54.172 DEBUG: RemoveBrowserWindow(): hwnd = 526614
+- 09:39:54.172 INFO: Stopping Mongoose web server
+- 09:39:54.172 DEBUG: Mongoose webserver stopped immediately
+- 09:39:54.172 DEBUG: OnBeforeClose() hwnd=395410
+- 09:39:54.172 DEBUG: RemoveBrowserWindow(): hwnd = 395410
+- 09:39:54.172 DEBUG: GetBrowserWindow(): not found, hwnd = 395410
+- 09:39:54.172 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:39:54.172 DEBUG: Calling CefQuitMessageLoop()
+- 09:39:54.188 INFO: Ended application
+- 09:39:54.188 INFO: --------------------------------------------------------
+- 18:25:12.031 INFO: --------------------------------------------------------
+- 18:25:12.031 INFO: Started application
+- 18:25:12.031 INFO: Logging to: C:\Users\ruben.baeza\Documents\latre\debug.log
+- 18:25:12.031 INFO: Log level = DEBUG4
+- 18:25:12.031 INFO: Starting Mongoose 3.9c web server
+- 18:25:12.031 INFO: WWW directory: C:\Users\ruben.baeza\Documents\latre\www
+- 18:25:12.031 INFO: Index files: index.html,index.php
+- 18:25:12.031 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\latre\php\php-cgi.exe
+- 18:25:12.031 INFO: CGI pattern: **.php$
+- 18:25:12.031 INFO: Hide files patterns: 
+- 18:25:12.031 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:25:12.031 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:25:12.031 INFO: Web server url: http://127.0.0.1:51046/
+- 18:25:12.031 INFO: remote_debugging_port = 51403
+- 18:25:12.031 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --remote-debugging-port=51403
+- 18:25:13.765 DEBUG: App::OnContextInitialized()
+- 18:25:13.765 DEBUG: Window max width/height = 1840/992
+- 18:25:13.765 DEBUG: GetBrowserWindow(): not found, hwnd = 985938
+- 18:25:13.765 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:25:13.765 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:25:13.765 DEBUG: StoreBrowserWindow(): hwnd = 985938
+- 18:25:13.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --service-request-channel-token=AD5DB595054EDE1BAF3F8596344699C9 --mojo-platform-channel-handle=1604 /prefetch:2
+- 18:25:13.796 DEBUG: ClientHandler::OnAfterCreated()
+- 18:25:13.796 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:25:13.796 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:25:13.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=renderer --no-sandbox --primordial-pipe-token=8CBA15F63F3A498EDE7AA06F23A08058 --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8CBA15F63F3A498EDE7AA06F23A08058 --renderer-client-id=3 --mojo-platform-channel-handle=2008 /prefetch:1
+- 18:25:13.016 DEBUG: OnBrowserCreated()
+[0325/182514.642:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:25:14.625 INFO: GET 200 /fonts/css.css
+- 18:25:14.640 INFO: GET 200 /css/materialize.min.css
+- 18:25:16.031 INFO: GET 200 /logo.png
+- 18:25:16.031 INFO: GET 200 /
+- 18:25:16.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51046/
+- 18:29:15.140 DEBUG: WM_DESTROY
+- 18:29:15.140 DEBUG: RemoveBrowserWindow(): hwnd = 985938
+- 18:29:15.140 INFO: Stopping Mongoose web server
+- 18:29:15.140 DEBUG: Mongoose webserver stopped immediately
+- 18:29:15.140 DEBUG: OnBeforeClose() hwnd=4787672
+- 18:29:15.140 DEBUG: RemoveBrowserWindow(): hwnd = 4787672
+- 18:29:15.140 DEBUG: GetBrowserWindow(): not found, hwnd = 4787672
+- 18:29:15.140 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:29:15.140 DEBUG: Calling CefQuitMessageLoop()
+- 18:29:15.344 DEBUG: OnBrowserDestroyed()
+- 18:29:15.171 INFO: Ended application
+- 18:29:15.171 INFO: --------------------------------------------------------
+- 18:29:23.032 INFO: --------------------------------------------------------
+- 18:29:23.032 INFO: Started application
+- 18:29:23.032 INFO: Logging to: C:\Users\ruben.baeza\Documents\latre\debug.log
+- 18:29:23.032 INFO: Log level = DEBUG4
+- 18:29:23.032 INFO: Starting Mongoose 3.9c web server
+- 18:29:23.032 INFO: WWW directory: C:\Users\ruben.baeza\Documents\latre\www
+- 18:29:23.032 INFO: Index files: index.html,index.php
+- 18:29:23.032 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\latre\php\php-cgi.exe
+- 18:29:23.032 INFO: CGI pattern: **.php$
+- 18:29:23.032 INFO: Hide files patterns: 
+- 18:29:23.032 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:29:23.032 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:29:23.032 INFO: Web server url: http://127.0.0.1:51809/
+- 18:29:23.032 INFO: remote_debugging_port = 52814
+- 18:29:23.032 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --remote-debugging-port=52814
+- 18:29:23.063 DEBUG: App::OnContextInitialized()
+- 18:29:23.063 DEBUG: Window max width/height = 1840/992
+- 18:29:23.063 DEBUG: GetBrowserWindow(): not found, hwnd = 986046
+- 18:29:23.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:29:23.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:29:23.078 DEBUG: StoreBrowserWindow(): hwnd = 986046
+- 18:29:23.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --service-request-channel-token=85FADA0AA8954690DF71D28240AD1BEB --mojo-platform-channel-handle=1580 /prefetch:2
+- 18:29:23.094 DEBUG: ClientHandler::OnAfterCreated()
+- 18:29:23.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:29:23.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:29:23.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=renderer --no-sandbox --primordial-pipe-token=BBFFBBCFB99DCD24EC04DAD7344D2B7E --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BBFFBBCFB99DCD24EC04DAD7344D2B7E --renderer-client-id=3 --mojo-platform-channel-handle=2016 /prefetch:1
+- 18:29:23.031 DEBUG: OnBrowserCreated()
+[0325/182923.316:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:29:24.203 INFO: GET 200 /fonts/css.css
+- 18:29:24.203 INFO: GET 200 /css/materialize.min.css
+- 18:29:24.813 INFO: GET 200 /logo.png
+- 18:29:24.844 INFO: GET 200 /
+- 18:29:25.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51809/
+- 18:29:38.875 DEBUG: WM_DESTROY
+- 18:29:38.875 DEBUG: RemoveBrowserWindow(): hwnd = 986046
+- 18:29:38.875 INFO: Stopping Mongoose web server
+- 18:29:38.875 DEBUG: Mongoose webserver stopped immediately
+- 18:29:38.875 DEBUG: OnBeforeClose() hwnd=3934464
+- 18:29:38.875 DEBUG: RemoveBrowserWindow(): hwnd = 3934464
+- 18:29:38.875 DEBUG: GetBrowserWindow(): not found, hwnd = 3934464
+- 18:29:38.875 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:29:38.875 DEBUG: Calling CefQuitMessageLoop()
+- 18:29:38.891 INFO: Ended application
+- 18:29:38.891 INFO: --------------------------------------------------------
+- 18:31:57.031 INFO: --------------------------------------------------------
+- 18:31:57.031 INFO: Started application
+- 18:31:57.031 INFO: Logging to: C:\Users\ruben.baeza\Documents\latre\debug.log
+- 18:31:57.031 INFO: Log level = DEBUG4
+- 18:31:57.031 INFO: Starting Mongoose 3.9c web server
+- 18:31:57.031 INFO: WWW directory: C:\Users\ruben.baeza\Documents\latre\www
+- 18:31:57.031 INFO: Index files: index.html,index.php
+- 18:31:57.031 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\latre\php\php-cgi.exe
+- 18:31:57.031 INFO: CGI pattern: **.php$
+- 18:31:57.031 INFO: Hide files patterns: 
+- 18:31:57.031 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:31:57.031 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:31:57.031 INFO: Web server url: http://127.0.0.1:52277/
+- 18:31:57.031 INFO: remote_debugging_port = 59073
+- 18:31:57.031 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --remote-debugging-port=59073
+- 18:31:57.062 DEBUG: App::OnContextInitialized()
+- 18:31:57.078 DEBUG: Window max width/height = 1840/992
+- 18:31:57.078 DEBUG: GetBrowserWindow(): not found, hwnd = 6228512
+- 18:31:57.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:31:57.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:31:57.078 DEBUG: StoreBrowserWindow(): hwnd = 6228512
+- 18:31:57.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --service-request-channel-token=C98B0CDDC80BFBFCCDE5145A27F18DBB --mojo-platform-channel-handle=1592 /prefetch:2
+- 18:31:57.093 DEBUG: ClientHandler::OnAfterCreated()
+- 18:31:57.093 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:31:57.093 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:31:57.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=renderer --no-sandbox --primordial-pipe-token=C584F9E6410F2B08B22E11E9F3601AD1 --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C584F9E6410F2B08B22E11E9F3601AD1 --renderer-client-id=3 --mojo-platform-channel-handle=2016 /prefetch:1
+[0325/183157.993:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:31:58.031 DEBUG: OnBrowserCreated()
+- 18:31:59.203 INFO: GET 200 /fonts/css.css
+- 18:31:59.203 INFO: GET 200 /css/materialize.min.css
+- 18:31:59.828 INFO: GET 200 /logo.png
+- 18:31:59.843 INFO: GET 200 /
+- 18:31:59.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52277/
+- 18:34:41.843 DEBUG: WM_DESTROY
+- 18:34:41.843 DEBUG: RemoveBrowserWindow(): hwnd = 6228512
+- 18:34:41.843 INFO: Stopping Mongoose web server
+- 18:34:41.843 DEBUG: Mongoose webserver stopped immediately
+- 18:34:41.843 DEBUG: OnBeforeClose() hwnd=11209946
+- 18:34:41.843 DEBUG: RemoveBrowserWindow(): hwnd = 11209946
+- 18:34:41.843 DEBUG: GetBrowserWindow(): not found, hwnd = 11209946
+- 18:34:41.843 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:34:41.843 DEBUG: Calling CefQuitMessageLoop()
+- 18:34:41.859 INFO: Ended application
+- 18:34:41.859 INFO: --------------------------------------------------------
+- 18:34:45.031 INFO: --------------------------------------------------------
+- 18:34:45.031 INFO: Started application
+- 18:34:45.031 INFO: Logging to: C:\Users\ruben.baeza\Documents\latre\debug.log
+- 18:34:45.031 INFO: Log level = DEBUG4
+- 18:34:45.031 INFO: Starting Mongoose 3.9c web server
+- 18:34:45.031 INFO: WWW directory: C:\Users\ruben.baeza\Documents\latre\www
+- 18:34:45.031 INFO: Index files: index.html,index.php
+- 18:34:45.031 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\latre\php\php-cgi.exe
+- 18:34:45.031 INFO: CGI pattern: **.php$
+- 18:34:45.031 INFO: Hide files patterns: 
+- 18:34:45.031 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:34:45.031 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:34:45.031 INFO: Web server url: http://127.0.0.1:52773/
+- 18:34:45.031 INFO: remote_debugging_port = 49283
+- 18:34:45.031 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --remote-debugging-port=49283
+- 18:34:45.078 DEBUG: App::OnContextInitialized()
+- 18:34:45.078 DEBUG: Window max width/height = 1840/992
+- 18:34:45.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1248092
+- 18:34:45.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:34:45.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:34:45.078 DEBUG: StoreBrowserWindow(): hwnd = 1248092
+- 18:34:45.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --service-request-channel-token=1264FE19A28BC846C11A90CDAF8AC481 --mojo-platform-channel-handle=1616 /prefetch:2
+- 18:34:45.094 DEBUG: ClientHandler::OnAfterCreated()
+- 18:34:45.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:34:45.109 DEBUG: OnLoadingStateChange: loading=1, url=
+[0325/183445.701:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:34:45.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=renderer --no-sandbox --primordial-pipe-token=0ECB86A1B087589E6977E3C8EA0CDF4A --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0ECB86A1B087589E6977E3C8EA0CDF4A --renderer-client-id=3 --mojo-platform-channel-handle=1932 /prefetch:1
+- 18:34:45.015 DEBUG: OnBrowserCreated()
+- 18:34:46.219 INFO: GET 200 /fonts/css.css
+- 18:34:46.219 INFO: GET 200 /css/materialize.min.css
+- 18:34:47.859 INFO: GET 200 /logo.png
+- 18:34:47.875 INFO: GET 200 /
+- 18:34:47.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52773/
+- 18:35:00.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52773/
+- 18:35:01.812 INFO: POST 200 /index.php
+- 18:35:01.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52773/index.php
+- 18:36:27.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52773/index.php
+- 18:36:27.344 INFO: POST 200 /index.php
+- 18:36:27.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52773/index.php
+- 18:42:15.859 DEBUG: WM_DESTROY
+- 18:42:15.859 DEBUG: RemoveBrowserWindow(): hwnd = 1248092
+- 18:42:15.859 INFO: Stopping Mongoose web server
+- 18:42:15.859 DEBUG: Mongoose webserver stopped immediately
+- 18:42:15.859 DEBUG: OnBeforeClose() hwnd=1051460
+- 18:42:15.859 DEBUG: RemoveBrowserWindow(): hwnd = 1051460
+- 18:42:15.859 DEBUG: GetBrowserWindow(): not found, hwnd = 1051460
+- 18:42:15.859 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:42:15.859 DEBUG: Calling CefQuitMessageLoop()
+- 18:42:15.890 INFO: Ended application
+- 18:42:15.890 INFO: --------------------------------------------------------
+- 18:42:34.016 INFO: --------------------------------------------------------
+- 18:42:34.016 INFO: Started application
+- 18:42:34.016 INFO: Logging to: C:\Users\ruben.baeza\Documents\latre\debug.log
+- 18:42:34.016 INFO: Log level = DEBUG4
+- 18:42:34.016 INFO: Starting Mongoose 3.9c web server
+- 18:42:34.016 INFO: WWW directory: C:\Users\ruben.baeza\Documents\latre\www
+- 18:42:34.016 INFO: Index files: index.html,index.php
+- 18:42:34.016 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\latre\php\php-cgi.exe
+- 18:42:34.016 INFO: CGI pattern: **.php$
+- 18:42:34.016 INFO: Hide files patterns: 
+- 18:42:34.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:42:34.016 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:42:34.032 INFO: Web server url: http://127.0.0.1:54233/
+- 18:42:34.032 INFO: remote_debugging_port = 52324
+- 18:42:34.032 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --remote-debugging-port=52324
+- 18:42:34.063 DEBUG: App::OnContextInitialized()
+- 18:42:34.063 DEBUG: Window max width/height = 1840/992
+- 18:42:34.063 DEBUG: GetBrowserWindow(): not found, hwnd = 12976916
+- 18:42:34.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:42:34.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:42:34.063 DEBUG: StoreBrowserWindow(): hwnd = 12976916
+- 18:42:34.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --service-request-channel-token=2E5BE4D5A139648E1D10DA79A2F4F963 --mojo-platform-channel-handle=1580 /prefetch:2
+- 18:42:34.078 DEBUG: ClientHandler::OnAfterCreated()
+- 18:42:34.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:42:34.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:42:35.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=renderer --no-sandbox --primordial-pipe-token=3C378D3C05EC23501C2863AEEF73863A --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3C378D3C05EC23501C2863AEEF73863A --renderer-client-id=3 --mojo-platform-channel-handle=2012 /prefetch:1
+[0325/184235.004:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:42:35.031 DEBUG: OnBrowserCreated()
+- 18:42:36.172 INFO: GET 200 /css/materialize.min.css
+- 18:42:36.172 INFO: GET 200 /fonts/css.css
+- 18:42:36.797 INFO: GET 200 /logo.png
+- 18:42:36.813 INFO: GET 200 /
+- 18:42:36.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54233/
+- 18:42:48.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54233/
+- 18:42:49.422 INFO: POST 200 /index.php
+- 18:42:49.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54233/index.php
+- 18:45:47.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54233/index.php
+- 18:45:47.828 INFO: POST 200 /index.php
+- 18:45:47.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54233/index.php
+- 18:48:39.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54233/index.php
+- 18:48:40.141 INFO: POST 200 /index.php
+- 18:48:40.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54233/index.php
+- 18:50:14.047 DEBUG: F5 pressed, reloading page
+- 18:50:15.750 DEBUG: F5 pressed, reloading page
+- 18:50:20.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54233/index.php
+- 18:50:21.188 INFO: POST 200 /index.php
+- 18:50:21.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54233/index.php
+- 18:51:13.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54233/index.php
+- 18:51:14.563 INFO: POST 200 /index.php
+- 18:51:14.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54233/index.php
+- 18:54:16.391 DEBUG: WM_DESTROY
+- 18:54:16.391 DEBUG: RemoveBrowserWindow(): hwnd = 12976916
+- 18:54:16.391 INFO: Stopping Mongoose web server
+- 18:54:16.391 DEBUG: Mongoose webserver stopped immediately
+- 18:54:16.391 DEBUG: OnBeforeClose() hwnd=657696
+- 18:54:16.391 DEBUG: RemoveBrowserWindow(): hwnd = 657696
+- 18:54:16.391 DEBUG: GetBrowserWindow(): not found, hwnd = 657696
+- 18:54:16.391 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:54:16.391 DEBUG: Calling CefQuitMessageLoop()
+- 18:54:16.422 INFO: Ended application
+- 18:54:16.422 INFO: --------------------------------------------------------
+- 18:54:27.032 INFO: --------------------------------------------------------
+- 18:54:27.032 INFO: Started application
+- 18:54:27.032 INFO: Logging to: C:\Users\ruben.baeza\Documents\latre\debug.log
+- 18:54:27.032 INFO: Log level = DEBUG4
+- 18:54:27.032 INFO: Starting Mongoose 3.9c web server
+- 18:54:27.032 INFO: WWW directory: C:\Users\ruben.baeza\Documents\latre\www
+- 18:54:27.032 INFO: Index files: index.html,index.php
+- 18:54:27.032 INFO: CGI interpreter: C:\Users\ruben.baeza\Documents\latre\php\php-cgi.exe
+- 18:54:27.032 INFO: CGI pattern: **.php$
+- 18:54:27.032 INFO: Hide files patterns: 
+- 18:54:27.032 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\RUBEN~1.BAE\AppData\Local\Temp\
+- 18:54:27.032 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:54:27.032 INFO: Web server url: http://127.0.0.1:56312/
+- 18:54:27.032 INFO: remote_debugging_port = 58274
+- 18:54:27.032 DEBUG: Command line string for the browser process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --remote-debugging-port=58274
+- 18:54:27.063 DEBUG: App::OnContextInitialized()
+- 18:54:27.063 DEBUG: Window max width/height = 1840/992
+- 18:54:27.063 DEBUG: GetBrowserWindow(): not found, hwnd = 1508180
+- 18:54:27.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:54:27.079 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:54:27.079 DEBUG: StoreBrowserWindow(): hwnd = 1508180
+- 18:54:27.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4849 --gpu-driver-date=10-27-2017 --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --service-request-channel-token=745325FA468A6D9B2F78E2A6E451416F --mojo-platform-channel-handle=1592 /prefetch:2
+- 18:54:27.094 DEBUG: ClientHandler::OnAfterCreated()
+- 18:54:27.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:54:27.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:54:27.000 DEBUG: Command line string for the renderer process: "C:\Users\ruben.baeza\Documents\latre\latre.exe" --type=renderer --no-sandbox --primordial-pipe-token=C32944264047B60857F294A55D133E6B --lang=en-US --lang=en-US --log-file="C:\Users\ruben.baeza\Documents\latre\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C32944264047B60857F294A55D133E6B --renderer-client-id=3 --mojo-platform-channel-handle=2004 /prefetch:1
+[0325/185427.850:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:54:27.031 DEBUG: OnBrowserCreated()
+- 18:54:28.204 INFO: GET 200 /fonts/css.css
+- 18:54:28.204 INFO: GET 200 /css/materialize.min.css
+- 18:54:29.266 INFO: GET 200 /
+- 18:54:29.266 INFO: GET 200 /logo.png
+- 18:54:29.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56312/
+- 18:54:37.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56312/
+- 18:54:38.922 INFO: POST 200 /index.php
+- 18:54:38.954 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56312/index.php
+- 18:56:12.063 DEBUG: WM_DESTROY
+- 18:56:12.063 DEBUG: RemoveBrowserWindow(): hwnd = 1508180
+- 18:56:12.063 INFO: Stopping Mongoose web server
+- 18:56:12.063 DEBUG: Mongoose webserver stopped immediately
+- 18:56:12.063 DEBUG: OnBeforeClose() hwnd=2558896
+- 18:56:12.063 DEBUG: RemoveBrowserWindow(): hwnd = 2558896
+- 18:56:12.063 DEBUG: GetBrowserWindow(): not found, hwnd = 2558896
+- 18:56:12.063 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:56:12.063 DEBUG: Calling CefQuitMessageLoop()
+- 18:56:12.094 INFO: Ended application
+- 18:56:12.094 INFO: --------------------------------------------------------
