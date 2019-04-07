@@ -536,7 +536,7 @@ p a:hover {
 
     <?php
       if(isset($_POST['submit'])){
-        $target_dir = 'C:/Users/Karen/Desktop/ruben_test/';
+        $target_dir = 'C:/latre/';
         $target_file = $target_dir . basename($_FILES["filepath"]["name"]);
         $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
         move_uploaded_file($_FILES["filepath"]["tmp_name"], $target_file);
@@ -557,6 +557,7 @@ p a:hover {
                 <?php
                     require_once 'PHPExcel/Classes/PHPExcel.php';
                     $archivo = $target_file;
+                    $acotacion = "";
                     $inputFileType = PHPExcel_IOFactory::identify($archivo);
                     $objReader = PHPExcel_IOFactory::createReader($inputFileType);
                     $objPHPExcel = $objReader->load($archivo);
@@ -576,24 +577,28 @@ p a:hover {
                         switch($sheet->getCell("L".$row)->getValue()){
                             case 'P':
                                 echo '#00C853';
+                                $acotacion = "Preventivo/Pendiente";
                             break;
                             case 'CM':
 
                             break;
                             case 'E':
                                 echo '#FF3D00';
+                                $acotacion = "Emergencia";
                             break;
                             case 'T':
                             
                             break;
                             case 'F':
                                 echo '#03A9F4';
+                                $acotacion = "Fuga";
                             break;
                             case 'PE':
                             
                             break;
                             case 'C':
                                 echo '#00C853';
+                                $acotacion = "Operación";
                             break;
                             case 'PD':
                             
@@ -610,16 +615,21 @@ p a:hover {
                             break;
                         }
                         ?>">
-                            <font size="+2">Máquina: <?php  echo $sheet->getCell("C".$row)->getValue(); ?> (<?php  echo $sheet->getCell("D".$row)->getValue(); ?>)
+                        <font color="#fff">
+                          <?php 
+                            echo($acotacion);
+                          ?>
+                          </font><br>
+                            Máquina: <font size="+1"> <?php  echo $sheet->getCell("C".$row)->getValue(); ?> (<?php  echo $sheet->getCell("D".$row)->getValue(); ?>)
                             </font>
                             <br>
                             <b><?php  echo $sheet->getCell("M".$row)->getValue(); ?></b>
                             <br>
                             Línea: <?php  echo $sheet->getCell("B".$row)->getValue(); ?>
                             <br>
-                            Fecha inicio: <?php  echo  date("d-m-Y H:i:s", $sheet->getCell("E".$row)->getValue()); ?>
+                            Fecha inicio: <?php  echo  date('Y-m-d H:i:s', PHPExcel_Shared_Date::ExcelToPHP($sheet->getCell("E".$row)->getValue()));   ?>
                             <br>
-                            Fecha fin: <?php  echo  date("d-m-Y H:i:s", $sheet->getCell("F".$row)->getValue()); ?>
+                            Fecha fin: <?php  echo  date('Y-m-d H:i:s', PHPExcel_Shared_Date::ExcelToPHP($sheet->getCell("F".$row)->getValue())); ?>
 
                             <div class="foot">
                                 <font color="#000">Electromecánico: </font><br>
