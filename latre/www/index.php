@@ -581,7 +581,8 @@
                         $datetime1 = new DateTime($datetime11);
                         $datetime2 = new DateTime($datetime22);
                         $interval = $datetime1->diff($datetime2);
-                        return $interval->format("%d") >= 1;
+                        echo $interval->format("%i");
+                        return $interval->format("%i") >= 5;
                       }
 
                       require_once 'PHPExcel/Classes/PHPExcel.php';
@@ -606,8 +607,8 @@
                       ?>
                       <div class="column">
                       <span class="badge orange" style="color: #FFFFFF;"><?php  echo $sheet->getCell("H".$row)->getValue(); ?></span>
-                          <div class="item <?php echo $sheet->getCell("L".$row)->getValue(); ?>" style="font-family: 'Roboto', sans-serif; background: <?php 
-                          switch($sheet->getCell("L".$row)->getValue()){
+                          <div class="item <?php  echo strtoupper($sheet->getCell("L".$row)->getValue()); ?>" style="font-family: 'Roboto', sans-serif; background: <?php 
+                          switch(  strtoupper($sheet->getCell("L".$row)->getValue())  ){
                               case 'P':
                                   echo '#00C853';
                                   $acotacion = "Preventivo/Pendiente";
