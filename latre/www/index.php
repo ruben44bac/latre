@@ -655,27 +655,28 @@
                             ?>
                             </b>
                             </font><br>
-                            Máquina:
+                            <b>Máquina: </b>
                                 <font size="+1" color="#fff"> 
                                   <?php  echo $sheet->getCell("C".$row)->getValue(); ?> (<?php  echo $sheet->getCell("D".$row)->getValue(); ?>)
                                 </font>
                               <br>
                               <font color="#fff"><b><?php  echo $sheet->getCell("M".$row)->getValue(); ?></b></font>
                               <br>
-                              Línea: <font color="#fff"><?php  echo $sheet->getCell("B".$row)->getValue(); ?></font>
+                              <b>Línea: </b>
+                              <font color="#fff"><?php  echo $sheet->getCell("B".$row)->getValue(); ?></font>
                               <br>
                               
-                                Fecha inicio: 
+                                <b>Fecha inicio: </b>
                               <font color="#fff">
                                 <?php  echo  date('Y-m-d H:i:s', PHPExcel_Shared_Date::ExcelToPHP($sheet->getCell("E".$row)->getValue()));   ?>
                               </font>
                               <br>
-                              Fecha fin: 
+                              <b>Fecha fin: </b>
                               <font color="#fff">
                               <?php  echo $datetime11 = date('Y-m-d H:i:s', PHPExcel_Shared_Date::ExcelToPHP($sheet->getCell("F".$row)->getValue())); ?>
                               </font>
                               <div class="foot">
-                                  <font color="#000">Electromecánico: </font><br>
+                                  <font color="#000"><b>Electromecánico: </b></font><br>
                                   <?php  echo $sheet->getCell("N".$row)->getValue(); ?>
                               </div>
                           </div>  
