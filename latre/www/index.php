@@ -649,25 +649,30 @@
                               break;
                           }
                           ?>">
-                          <font color="#fff">
+                          <font color="#fff"><b>
                             <?php 
                               echo($acotacion);
                             ?>
+                            </b>
                             </font><br>
-                              Máquina: <font size="+1"> <?php  echo $sheet->getCell("C".$row)->getValue(); ?> (<?php  echo $sheet->getCell("D".$row)->getValue(); ?>)
-                              </font>
+                            <font color="#fff">Máquina: </font>
+                                <font size="+1" color="#fff"> 
+                                  <?php  echo $sheet->getCell("C".$row)->getValue(); ?> (<?php  echo $sheet->getCell("D".$row)->getValue(); ?>)
+                                </font>
                               <br>
                               <b><?php  echo $sheet->getCell("M".$row)->getValue(); ?></b>
                               <br>
-                              Línea: <?php  echo $sheet->getCell("B".$row)->getValue(); ?>
+                              <font color="#fff">Línea: <?php  echo $sheet->getCell("B".$row)->getValue(); ?></font>
                               <br>
-                              Fecha inicio: <?php  echo  date('Y-m-d H:i:s', PHPExcel_Shared_Date::ExcelToPHP($sheet->getCell("E".$row)->getValue()));   ?>
+                              <font color="#fff">
+                                Fecha inicio: <?php  echo  date('Y-m-d H:i:s', PHPExcel_Shared_Date::ExcelToPHP($sheet->getCell("E".$row)->getValue()));   ?>
+                              </font>
                               <br>
-                              
+                              <font color="#fff">
                               Fecha fin: <?php  echo $datetime11 = date('Y-m-d H:i:s', PHPExcel_Shared_Date::ExcelToPHP($sheet->getCell("F".$row)->getValue())); ?>
-                              
+                              </font>
                               <div class="foot">
-                                  <font color="#000">Electromecánico: </font><br>
+                                  <font color="#fff">Electromecánico: </font><br>
                                   <?php  echo $sheet->getCell("N".$row)->getValue(); ?>
                               </div>
                           </div>  
